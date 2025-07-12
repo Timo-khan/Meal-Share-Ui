@@ -1,0 +1,28 @@
+.meal-card {
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 16px;
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+	transition: transform 0.2s ease-in-out;
+}
+
+.meal-card:hover {
+	transform: scale(1.02);
+}
+
+.meal-card h3 {
+	margin: 0 0 8px;
+	color: #333;
+}
+
+.meal-card .description {
+	font-size: 0.9rem;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.meal-card .price {
+	font-weight: bold;
+	color: #2c3e50;
+}
