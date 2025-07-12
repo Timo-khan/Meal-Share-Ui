@@ -48,7 +48,7 @@ export const MealsList = () => {
 				<p>No meals available.</p>
 			)}
 
-			<pre>{JSON.stringify(meals, null, 2)}</pre>
+			{/* <pre>{JSON.stringify(meals, null, 2)}</pre> */}
 		</div>
 	);
 };
